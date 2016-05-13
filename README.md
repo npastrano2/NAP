@@ -15,8 +15,10 @@ Using java GUI creates a simple interface box with a ball that bounces in the bo
 
 ##Bug Busters
 Game made using Unity3D during the final class, Game Simulation with a group of 12 ranging from artist, production and programming students.
-Link: 
+
+Links: 
 BitBucket repo:
-https://GameSimProjectSpring2016@bitbucket.org/GameSimProjectSpring2016/gamesimproject.git
-.exe DL:
+https://GameSimProjectSpring2016@bitbucket.org/GameSimProjectSpring2016/gamesimproject.git 
+
+Download:
 https://mega.nz/#!v1djyYRS!bCnIkSCs4v6SSq-PVbzYfFxyaFzbuIEc5ndaLk0Ujw8
