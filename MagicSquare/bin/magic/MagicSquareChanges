@@ -1,0 +1,135 @@
+package magic;
+/**
+ * 
+ * @author Raylais
+ *http://www.dreamincode.net/forums/topic/275823-sum-of-columns-in-a-2d-array/
+ */
+public class MagicSquare 
+{
+	/**
+	 * Represents a 2D array of Square
+	 */
+	private int[][] Square; 
+	
+	/**
+	 * Represents the size of this square matrix
+	 */
+	private int Size; 
+	
+	/**
+	 * Constructs a new 2D array square of given size, 
+	 * initializes the square with 0s. The size of the square matrix 
+	 * of this square. It s the number of rows and the number of columns
+	 * each row is divided into in this square matrix. 
+	 * @param Size 
+	 * @param Square A 2D array containing a square matrix
+	 */
+	public MagicSquare(int Size)
+	{
+		this.Size = Size;
+		this.Square = new int [Size][Size];
+	}
+	
+	/**
+	 * Changes the square matrix of this square to be a new square matrix.
+	 * Square matrix is a 2D array filled with numbers.
+	 * @param Square A 2D array square matrix containing numbers 
+	 */
+	public void setSquare(int[][] Square)
+	{
+		this.Square = Square; 
+	}
+	
+	/**
+	 * Returns the square matrix of this square.
+	 * @return A square matrix of this square
+	 */
+	public int[][] getSquare()
+	{
+		return this.Square; 
+	}
+
+	/**
+	 * Returns the sum of the values in the given row. 
+	 * @return A sum of the values in the given row
+	 */
+	public int[][] sumRow(int row) 
+	{
+		return this.Square; 
+	}
+	
+	/**
+	 * Returns the sum of the values in the given column.
+	 * @return A sum of the values in the given column
+	 */
+	public int[][] sumCol(int col)
+	{
+		return this.Square; 
+	}
+	
+	/**
+	 * Returns the sum of the values in the main diagonal.
+	 * @return A sum of the values in the main diagonal
+	 */
+	public int[][] sumMainDiag()
+	{
+		return this.sumMainDiag();
+	}
+	
+	/**
+	 * Returns the sum of the values in the other reverse diagonal.
+	 * @return A sum value of the other reverse diagonal
+	 */
+	public int[][] sumOtherDiag()
+	{
+		return this.sumOtherDiag(); 
+	}
+	
+	/**
+	 * Returns true if the squares rows, columns and diagonals have the same sum, 
+	 * false otherwise.
+	 * @return A boolean value specifying whether the squares rows, columns and diagonals have the same sum
+	 */
+	public boolean magic()
+	{
+		//find out if the sum of all rows, columns and diagonals are the same
+	
+		if(this.sumMainDiag() != this.sumOtherDiag())
+		{
+			return false; 
+		}
+		//row ++ ? 
+		for(int row = 0; row < Size; row++)
+		{
+			if(this.sumMainDiag() != this.sumRow(row))
+			{
+				return false; 
+			}
+		}
+		//col ++ ? 
+		for(int col = 0; col < Size; col++)
+		{
+			if(this.sumMainDiag() != this.sumCol(col)) 
+			{
+				return false; 
+			}
+		}
+		return true; 
+	}
+	
+	/**
+	 * Returns a string representing the contents of the square, formatted.
+	 * @return A formatted string representation of the contents of the square
+	 */
+	public String toString()
+	{
+		return ""; 
+	}
+	
+	/**
+	 * Compares this square with the other square
+	 * @param
+	 * @param
+	 * @param
+	 */
+}
