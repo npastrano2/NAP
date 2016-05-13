@@ -1,5 +1,5 @@
 ## Nicholas Pastrano
 ### Contact Info: 
-E-mail: 
+E-mail: pastranonicholas@gmail.com
 
 #### Bio
