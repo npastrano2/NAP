@@ -1,0 +1,9 @@
+Java resources
+
+http://www.dreamincode.net/forums/topic/163051-static-methods/
+
+http://www.daniweb.com/software-development/java/threads/237057/consolidate-accounts-java
+
+http://www.dreamincode.net/forums/topic/286108-bank-account-and-manage-account-program-need-help/
+
+http://www.dreamincode.net/forums/topic/163051-static-methods/
